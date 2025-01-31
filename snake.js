@@ -69,7 +69,7 @@ function update() {
     scoreCount++ // try to keep track of user score
     document.getElementById("score").innerHTML = scoreCount
 
-    if (scoreCount >= 2) {
+    if (scoreCount >= 20) {
       game_over = true
       alert(
         "Win Game, Your score is " + scoreCount + " \n You are a snake🐍 master"
